@@ -1,1 +1,1 @@
-# moviedb_recommender
+# MovieDB
