@@ -1,0 +1,115 @@
+
+
+.header{
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .txtcontainer{
+        width: 35%;
+    }
+
+    .welcome{
+        font-size: 85px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .cine{
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+   
+
+
+/* CSS */
+.button-71 {
+  background-color: #ff4545;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  margin-right: 2rem;
+  
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 150px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
+    .mdb{
+        color: rgb(255, 98, 98);
+    }
+
+   
+
+}
+
+
+.features {
+    height: 100vh;
+  
+    .ft {
+      font-size: 45px;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+  
+      .line {
+        font-size: xx-large;
+        color: #ff4545;
+      }
+    }
+  
+    .featureCards {
+      display: flex;
+      margin-top: 100px;
+      margin-left: 50px;
+      justify-content: space-evenly;
+      align-items: center;
+  
+      // Ensure proper spacing between cards
+      padding: 50px;
+    }
+  }
+
+@media only screen and (min-width:900px) {
+    .featureCards{
+        flex-direction: row;
+    }
+}

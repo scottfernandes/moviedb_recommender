@@ -1,0 +1,41 @@
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    width: 90%;
+    .letsgo{
+        font-size: x-large;
+        background-color: rgb(229, 41, 41);
+        border: none;
+        border-radius: 3%;
+        padding: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        color: white;
+        width: 12%;
+        
+    }
+    .prompt{
+        width: 70%;
+        text-align: center;
+        
+    }
+}
+
+.forms{
+    margin-top: 100px;
+    width: 80%;
+
+    .why{
+        font-weight: lighter;
+    }
+    .opts{
+        .op{
+            margin-left:10px ;
+            margin-right: 10px;
+            
+        }
+       
+    }
+}
